@@ -12,8 +12,10 @@
                 <div class='post'>
                     <h2 class='title'><a href="/posts/{{ $post->id }}">{{ $post->title }}</a></h2>
                     <p class='body'>{{ $post->body }}</p>
+                    <a href="">{{ $post->category->name }}</a>
                 </div>
             @endforeach
+            
         </div>
         <div class='paginate'>
             {{ $posts->links() }}
