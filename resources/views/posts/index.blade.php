@@ -15,6 +15,7 @@
                     <a href="">{{ $post->category->name }}</a>
                 </div>
             @endforeach
+            
         </div>
         <div class='paginate'>
             {{ $posts->links() }}

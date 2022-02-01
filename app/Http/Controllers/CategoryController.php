@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\Category;
 
-class Category extends Model
+class CategoryController extends Controller
 {
 public function index(Category $category)
     {
